@@ -13,7 +13,6 @@
 
     <ItemGroup>
       <Folder Include="Core" />
-      <Folder Include="Endpoints" />
       <Folder Include="Infrastructure" />
     </ItemGroup>
 
