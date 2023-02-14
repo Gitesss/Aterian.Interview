@@ -4,9 +4,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7886CC6-E5E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spec", "spec", "{CDBCF6E3-C345-4ACD-85B1-BC7A38794339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview.Aterian", "src\Interview.Aterian\Interview.Aterian.csproj", "{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB} = {E7886CC6-E5E7-4138-BDF5-3907189C5FF5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806E90DE-FF37-45BA-ACA5-A0FA3FE283DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
